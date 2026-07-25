@@ -1,0 +1,6 @@
+{
+  "name": "PathPilot",
+  "description": "Select your path to begin a personalized career acceleration experience powered by world-class mentorship.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
