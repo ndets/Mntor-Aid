@@ -6,7 +6,7 @@
   "main": "server.js",
   "scripts": {
     "dev:frontend": "vite --port=3000 --host=0.0.0.0",
-    "dev:backend": "cd backend && npm run dev",
+    "dev:backend": "cd \"backend\" && npm run dev",
     "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
     "build": "vite build",
     "lint": "tsc --noEmit",
@@ -27,6 +27,8 @@
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "autoprefixer": "^10.4.21",
     "concurrently": "^9.1.2",
     "esbuild": "^0.25.0",
